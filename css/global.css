@@ -1,0 +1,24 @@
+@import url(./cabecalho.css);
+@import url(./chamada.css);
+@import url(./planos.css);
+@import url(./reset.css);
+
+:root {
+  --font-primary: "Montserrat", sans-serif;
+  --font-secundary: "OpenSans", Arial, Helvetica;
+  --weight-light: 300;
+  --weight-regular: 400;
+  --weight-bold: 700;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(../fonts/montserrat/Montserrat-Light.ttf) format(trutype);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url(../fonts/open-sans/OpenSans-Light.ttf) format(trutype);
+  font-display: swap;
+}
